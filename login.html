@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <select name="idioma">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+            <option value="fc">Frances</option>
+            <option value="pg">Portugues</option>
+        </select>
+    </header>
+    <h1 class="font_0 wixui-rich-text__text"
+     style="text-align:center; font-size:40px;" >Iniciar seccion</h1>
+   
+    <center>   <!--Formulario para el login -->
+    <form id="frmlogin" class="grupo-entradas" method="POST">
+		<br><div class="logovai"><img src="imagen/OIP .jpg" width="50"></div><br>
+		<!--Etiqueta del icono -->
+        <b>&#128231; usuario</b><br>
+        <!----Agregar caja vacia-->
+        <br><input type="email" class="cajaentradatexto" name="txtcorreo" placeholder="" required><br>
+		<br><b>&#128274; Contraseña</b><br>
+        <br><input type="password" name="contraseña" min="4" max="10" placeholder="contraseña..."><br>
+        <br><button type="submit" class="botonenviar" name="btnloginx">Iniciar sesión</button><br>
+        <br><input type="checkbox" name="sescripcion" value="aceptado">Recordar contraseña
+    </form>
+    
+    <div>
+        <a href="olvidoContrasena.html">Olvido su contraseña</a>
+    </div>
+</center>
+</body>
+<footer>
+  
+</footer>
+</html>
